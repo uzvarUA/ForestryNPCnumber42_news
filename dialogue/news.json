@@ -1,0 +1,24 @@
+{
+    "format_version": "1.21",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "open",
+                "npc_name": {"rawtext":[{"text":"News"}]},
+                "text": {"rawtext":[{"text":"Сьогодні новини"}]},
+                "buttons": [
+                    {
+                        "name": {"rawtext":[{"text":"Розказати новин"}]},
+						"commands": ["dialogue open @s @initiator news"]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "news",
+                "npc_name": {"rawtext":[{"text":"News"}]},
+                "text": {"rawtext":[{"text":"Сьогодні, у лісництві NPC номер 42 /n глобальне похолодання. /n Будьте  обережні!!!"}]},
+                "on_close_commands": []
+            }
+        ]
+    }
+}
