@@ -1,0 +1,17 @@
+{
+	"format_version": 1.21,
+	"header": {
+		"description": "NPC dialogue",
+		"name": "NPC dialogue",
+		"uuid": "bedb705a-ec8f-458c-b5b9-d9b4fc5a3713",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"description": "NPC dialogue",
+			"type": "data",
+			"uuid": "f84b4dcb-7032-4af6-b870-008f2194f619",
+			"version": [1, 0, 0]
+		}
+	]
+}
