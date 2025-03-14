@@ -50,4 +50,4 @@
 	]
 }
 ```
-5. Для активації треба написати таку команду: `/dialogue change @e[type] open @s`
+5. Для активації треба написати таку команду: `/dialogue change @e[type=npc] open @s`
